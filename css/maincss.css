@@ -2,7 +2,7 @@
 * @Author: xby020
 * @Date:   2017-06-22 14:08:10
 * @Last Modified by:   xby020
-* @Last Modified time: 2017-06-22 23:42:58
+* @Last Modified time: 2017-06-23 11:19:34
 */
 /*
 引入ICONFONT图标;
@@ -16,19 +16,19 @@
 
 /*iconfont*/
 
-/*引入iconfont，需更新*/
+/*引入iconfont，需手动更新*/
 @font-face {
-  font-family: 'iconfont';  /* project id 334355 */
-  src: url('//at.alicdn.com/t/font_aptxj0te0k4q85mi.eot');
-  src: url('//at.alicdn.com/t/font_aptxj0te0k4q85mi.eot?#iefix') format('embedded-opentype'),
-  url('//at.alicdn.com/t/font_aptxj0te0k4q85mi.woff') format('woff'),
-  url('//at.alicdn.com/t/font_aptxj0te0k4q85mi.ttf') format('truetype'),
-  url('//at.alicdn.com/t/font_aptxj0te0k4q85mi.svg#iconfont') format('svg');
+  font-family: 'iconfont';  /* project id 333724 */
+  src: url('//at.alicdn.com/t/font_lvommsv7vutbj4i.eot');
+  src: url('//at.alicdn.com/t/font_lvommsv7vutbj4i.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_lvommsv7vutbj4i.woff') format('woff'),
+  url('//at.alicdn.com/t/font_lvommsv7vutbj4i.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_lvommsv7vutbj4i.svg#iconfont') format('svg');
 }
 /*设置默认iconfont样式*/
 .iconfont{
     font-family:"iconfont" !important;
-    font-size:20spx;
+    font-size:inherit;
     font-style:normal;
     -webkit-font-smoothing: antialiased;
     -webkit-text-stroke-width: 0.2px;

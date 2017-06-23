@@ -1,10 +1,69 @@
-/* 
+/*
 * @Author: xby020
 * @Date:   2017-06-22 15:41:44
 * @Last Modified by:   xby020
-* @Last Modified time: 2017-06-22 23:28:19
+* @Last Modified time: 2017-06-23 18:21:16
 */
-.iconfont{
-    font-size: 50px;
-    color: orange;
+
+/*Total CSS*/
+#sidenav{
+    background: #f5f5f5;
+    height: 100%;
+    padding:0;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    width: 20%;
+    min-width: 150px;
+    position: fixed;
+    bottom: 0;
+    top: 0;
+    left: 0;
+}
+#mainbody{
+    position: absolute;
+    right:0;
+    width: 80%;
+    float: right;
+}
+
+/*sidebar*/
+.logo a{
+    font-size: 2.5em;
+    color: #DC3522;
+    text-decoration: none;
+}
+.logo a p{
+    font-size: 0.5em;
+    color: #DC3522;
+}
+.pointer{
+    cursor: pointer;
+}
+#index-nav{
+    padding-top: 80px;
+}
+#index-nav li a{
+    font-size: 1.2em;
+    color: #B64926;
+}
+#nav-level{
+    font-size: 0.9em;
+    background: #D4D8D9;
+}
+#nav-level li{
+    padding:-10px 0;
+}
+#nav-level li a{
+    text-decoration: none;
+    color: #2C3E50;
+    font-weight: 100;
+    display: block;
+    padding: 10px 0;
+}
+#nav-level li:hover{
+    background-color: #FCFFF5;
+    color: #2C3E50;
+}
+.index-icon{
+    font-size: 0.8em;
 }
