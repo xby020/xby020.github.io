@@ -2,7 +2,7 @@
 * @Author: xby020
 * @Date:   2017-06-22 14:08:10
 * @Last Modified by:   xby020
-* @Last Modified time: 2017-06-23 11:19:34
+* @Last Modified time: 2017-06-24 18:04:12
 */
 /*
 引入ICONFONT图标;
@@ -19,11 +19,11 @@
 /*引入iconfont，需手动更新*/
 @font-face {
   font-family: 'iconfont';  /* project id 333724 */
-  src: url('//at.alicdn.com/t/font_lvommsv7vutbj4i.eot');
-  src: url('//at.alicdn.com/t/font_lvommsv7vutbj4i.eot?#iefix') format('embedded-opentype'),
-  url('//at.alicdn.com/t/font_lvommsv7vutbj4i.woff') format('woff'),
-  url('//at.alicdn.com/t/font_lvommsv7vutbj4i.ttf') format('truetype'),
-  url('//at.alicdn.com/t/font_lvommsv7vutbj4i.svg#iconfont') format('svg');
+  src: url('//at.alicdn.com/t/font_uoax0k9pffkihpvi.eot');
+  src: url('//at.alicdn.com/t/font_uoax0k9pffkihpvi.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_uoax0k9pffkihpvi.woff') format('woff'),
+  url('//at.alicdn.com/t/font_uoax0k9pffkihpvi.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_uoax0k9pffkihpvi.svg#iconfont') format('svg');
 }
 /*设置默认iconfont样式*/
 .iconfont{
