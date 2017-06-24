@@ -2,7 +2,7 @@
 * @Author: xby020
 * @Date:   2017-06-22 15:41:44
 * @Last Modified by:   xby020
-* @Last Modified time: 2017-06-24 17:55:08
+* @Last Modified time: 2017-06-24 18:16:19
 */
 
 /*Total CSS*/
@@ -66,6 +66,9 @@
 #nav-level li:hover{
     background-color: #FCFFF5;
     color: #2C3E50;
+}
+#droparrow{
+    font-size: 12px;
 }
 .index-icon{
     font-size: 0.8em;
