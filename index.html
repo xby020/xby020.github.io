@@ -20,12 +20,17 @@
     <![endif]-->
 </head>
 <body>
-    <nav id="sidenav" class="col-lg-3">
-        <div class="logo text-center"><a href="index.html">前端厨房<p>Font End Kitchen</p></a></div>
+    <nav class="sidenav">
+        <div class="logo text-center">
+          <a href="index.html">前端厨房<p>Font End Kitchen</p></a>
+        </div>
         <ul  id="index-nav" class="nav nav-pills nav-stacked text-center">
             <li><a href="index.html">首页</a></li>
             <li><a href="#">简介</a></li>
-            <li><a class="pointer" data-toggle="collapse" data-target="#nav-level">教程&nbsp<span class="index-icon  glyphicon glyphicon-chevron-down"></span></a>
+            <li>
+              <a class="pointer" data-toggle="collapse" data-target="#nav-level">教程&nbsp
+                <span class="index-icon  glyphicon glyphicon-chevron-down"></span>
+              </a>
                 <ul id="nav-level" class="collapse list-unstyled">
                     <li><a href="#">吃货</a></li>
                     <li><a href="#">帮工</a></li>
@@ -34,13 +39,26 @@
                     <li><a href="#">食神</a></li>
                 </ul>
             </li>
-            <li><a href="#">博客</a></li>
+            <li><a href="http://www.xby020.cn/" target="_blank">博客</a></li>
             <li><a href="#">感谢</a></li>
         </ul>
     </nav>
-    <div id="mainbody">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus eos officiis aut obcaecati distinctio, architecto dolorem deserunt voluptates voluptas repellat impedit fuga, illum exercitationem rerum, odio quae illo ipsam quasi.</p>
-        <p>子曰：“学而时习之，不亦说乎？有朋自远方来，不亦乐乎？人不知而不愠，不亦君子乎？”。有子曰：“其为人也孝弟，而好犯上者，鲜矣；不好犯上而好作乱者，未之有也。君子务本，本立而道生。孝弟也者，其为仁之本与！”。子曰：“巧言令色，鲜矣仁！”。子曰：“道千乘之国，敬事而信，节用而爱人，使民以时。”子贡曰：“贫而无谄，富而无骄，何如？”子曰：“可也。未若贫而乐，富而好礼者也。”子贡曰：“《诗》云：‘如切如磋，如琢如磨’，其斯之谓与？”子曰：“赐也，始可与言《诗》已矣，告诸往而知来者。”</p>
+    <div class="mainbody">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12 offpadding">
+                    <video src="video/coffee.mp4" id="main-video" class="img-responsive" autoplay muted loop></video>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 main-head offpadding">
+                    <h1>前端厨房</h1>
+                    <h3>Font End Kitchen</h3>
+                    <p>吃货学习前端的正确方式</p>
+                    <button id="learnmore" class="center-block"><span class="glyphicon glyphicon-cutlery"></span>Learn More</button>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 </html>
