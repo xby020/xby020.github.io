@@ -1,35 +1,42 @@
 /* 
 * @Author: xby020
 * @Date:   2017-06-22 14:08:10
-* @Last Modified by:   xby020
-* @Last Modified time: 2017-06-24 18:13:21
+ * @Last Modified by: xby020
+ * @Last Modified time: 2017-06-26 23:56:26
 */
+
+
 /*
 引入ICONFONT图标;
 重置所有字体；
 */
 
+
 /*CSS RESET*/
+
 
 /*已由Bootstrap替用*/
 
 
 /*iconfont*/
 
+
 /*引入iconfont，需手动更新*/
+
 @font-face {
-  font-family: 'iconfont';  /* project id 333724 */
-  src: url('//at.alicdn.com/t/font_uoax0k9pffkihpvi.eot');
-  src: url('//at.alicdn.com/t/font_uoax0k9pffkihpvi.eot?#iefix') format('embedded-opentype'),
-  url('//at.alicdn.com/t/font_uoax0k9pffkihpvi.woff') format('woff'),
-  url('//at.alicdn.com/t/font_uoax0k9pffkihpvi.ttf') format('truetype'),
-  url('//at.alicdn.com/t/font_uoax0k9pffkihpvi.svg#iconfont') format('svg');
+    font-family: 'iconfont';
+    /* project id 333724 */
+    src: url('//at.alicdn.com/t/font_uoax0k9pffkihpvi.eot');
+    src: url('//at.alicdn.com/t/font_uoax0k9pffkihpvi.eot?#iefix') format('embedded-opentype'), url('//at.alicdn.com/t/font_uoax0k9pffkihpvi.woff') format('woff'), url('//at.alicdn.com/t/font_uoax0k9pffkihpvi.ttf') format('truetype'), url('//at.alicdn.com/t/font_uoax0k9pffkihpvi.svg#iconfont') format('svg');
 }
+
+
 /*设置默认iconfont样式*/
-.iconfont{
-    font-family:"iconfont" !important;
-    font-size:inherit;
-    font-style:normal;
+
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: inherit;
+    font-style: normal;
     -webkit-font-smoothing: antialiased;
     -webkit-text-stroke-width: 0.2px;
     -moz-osx-font-smoothing: grayscale;
@@ -38,6 +45,92 @@
 
 
 /*重置字体*/
-body{
-  font-family: -apple-system,SF UI Text,Arial,PingFang SC,Hiragino Sans GB,Microsoft YaHei,WenQuanYi Micro Hei,sans-serif;
+
+body {
+    font-family: -apple-system, SF UI Text, Arial, PingFang SC, Hiragino Sans GB, Microsoft YaHei, WenQuanYi Micro Hei, sans-serif;
+}
+
+
+/*侧边栏*/
+
+.sidenav {
+    background: #f5f5f5;
+    height: 100%;
+    padding: 0;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    width: 20%;
+    min-width: 150px;
+    position: fixed;
+    bottom: 0;
+    top: 0;
+    left: 0;
+}
+
+.mainbody {
+    position: absolute;
+    right: 0;
+    width: 80%;
+    float: right;
+}
+
+.offpadding {
+    padding: 0;
+}
+
+
+/*sidebar*/
+
+.logo a {
+    font-size: 2.5em;
+    color: #DC3522;
+    text-decoration: none;
+}
+
+.logo a p {
+    font-size: 0.5em;
+    color: #DC3522;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+#index-nav {
+    padding-top: 80px;
+}
+
+#index-nav li a {
+    font-size: 1.2em;
+    color: #B64926;
+}
+
+#nav-level {
+    font-size: 0.9em;
+    background: #D4D8D9;
+}
+
+#nav-level li {
+    padding: -10px 0;
+}
+
+#nav-level li a {
+    text-decoration: none;
+    color: #2C3E50;
+    font-weight: 100;
+    display: block;
+    padding: 10px 0;
+}
+
+#nav-level li:hover {
+    background-color: #FCFFF5;
+    color: #2C3E50;
+}
+
+#droparrow {
+    font-size: 12px;
+}
+
+.index-icon {
+    font-size: 0.8em;
 }

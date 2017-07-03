@@ -1,82 +1,14 @@
 /*
 * @Author: xby020
 * @Date:   2017-06-22 15:41:44
-* @Last Modified by:   xby020
-* @Last Modified time: 2017-06-24 18:16:19
+ * @Last Modified by: xby020
+ * @Last Modified time: 2017-06-26 23:56:23
 */
-
-/*Total CSS*/
-.sidenav{
-    background: #f5f5f5;
-    height: 100%;
-    padding:0;
-    padding-top: 60px;
-    padding-bottom: 40px;
-    width: 20%;
-    min-width: 150px;
-    position: fixed;
-    bottom: 0;
-    top: 0;
-    left: 0;
-}
-.mainbody{
-    position: absolute;
-    right:0;
-    width: 80%;
-    float: right;
-}
-.offpadding{
-    padding:0;
-}
-
-/*sidebar*/
-.logo a{
-    font-size: 2.5em;
-    color: #DC3522;
-    text-decoration: none;
-}
-.logo a p{
-    font-size: 0.5em;
-    color: #DC3522;
-}
-.pointer{
-    cursor: pointer;
-}
-#index-nav{
-    padding-top: 80px;
-}
-#index-nav li a{
-    font-size: 1.2em;
-    color: #B64926;
-}
-#nav-level{
-    font-size: 0.9em;
-    background: #D4D8D9;
-}
-#nav-level li{
-    padding:-10px 0;
-}
-#nav-level li a{
-    text-decoration: none;
-    color: #2C3E50;
-    font-weight: 100;
-    display: block;
-    padding: 10px 0;
-}
-#nav-level li:hover{
-    background-color: #FCFFF5;
-    color: #2C3E50;
-}
-#droparrow{
-    font-size: 12px;
-}
-.index-icon{
-    font-size: 0.8em;
-}
 
 
 /*main*/
-#main-video{
+
+#main-video {
     width: auto;
     height: auto;
     z-index: -100;
@@ -84,8 +16,8 @@
     min-height: 100%;
 }
 
-.main-head{
-    background-color: rgba(0,0,0,0.5);
+.main-head {
+    background-color: rgba(0, 0, 0, 0.5);
     width: auto;
     height: auto;
     min-width: 100%;
@@ -93,31 +25,38 @@
     position: absolute;
     top: 0px
 }
-.main-head h1,h3,p{
+
+.main-head h1,
+h3,
+p {
     text-align: center;
     color: #FCFFF5;
 }
-.main-head h1{
+
+.main-head h1 {
     padding-top: 2em;
     font-size: 80px;
     letter-spacing: 10px;
 }
-.main-head h3{
+
+.main-head h3 {
     font-size: 45px;
 }
-.main-head p{
+
+.main-head p {
     font-size: 20px;
     font-weight: 100;
     padding-top: 80px;
     letter-spacing: 6px;
 }
-#learnmore{
+
+#learnmore {
     width: 150px;
     height: 50px;
     font-size: 20px;
-    color:#fcfff5;
+    color: #fcfff5;
     border: 1px solid #fff;
     border-radius: 10px;
-    background-color: rgba(0,0,0,0);
+    background-color: rgba(0, 0, 0, 0);
     margin-top: 95px;
 }
